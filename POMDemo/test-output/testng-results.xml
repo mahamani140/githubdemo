@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9275" started-at="2020-02-19T09:00:38Z" finished-at="2020-02-19T09:00:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9275" started-at="2020-02-19T09:00:38Z" finished-at="2020-02-19T09:00:47Z">
+      <class name="TestCases.SigninTestCase">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:TestCases.SigninTestCase@1e7c7811]" name="startUp" is-config="true" duration-ms="7174" started-at="2020-02-19T14:30:38Z" finished-at="2020-02-19T14:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:TestCases.SigninTestCase@1e7c7811]" name="signin" duration-ms="1685" started-at="2020-02-19T14:30:45Z" finished-at="2020-02-19T14:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.SigninTestCase@1e7c7811]" name="close" is-config="true" duration-ms="375" started-at="2020-02-19T14:30:47Z" finished-at="2020-02-19T14:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.SigninTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
