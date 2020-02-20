@@ -8,7 +8,7 @@ public class SignInPage {
 	By username=By.id("username");
 	By password=By.id("password");
 	By signinbutton =By.xpath("//*[@id=\"app__container\"]/main/div/form/div[3]/button");
-	public LinkedinSignin(WebDriver driver)
+	public SignInPage(WebDriver driver)
 	{
 		this.driver=driver;
 	}

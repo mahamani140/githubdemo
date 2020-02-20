@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGdemo.DependsonGroup"/>
+      <class name="TestNGdemo.DependsonMethods"/>
+      <class name="TestNGdemo.ParallelTestCase1"/>
+      <class name="Seleniumdemo.JunitTestCase"/>
+      <class name="Seleniumdemo.HeadlessBrowser"/>
+      <class name="Seleniumdemo.ExtentReport"/>
+      <class name="TestNGdemo.LinkedInDemo"/>
+      <class name="TestNGdemo.ParallelTestCase"/>
+      <class name="TestNGdemo.SampleTeseCase"/>
+      <class name="TestNGdemo.PriorityTestcase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
